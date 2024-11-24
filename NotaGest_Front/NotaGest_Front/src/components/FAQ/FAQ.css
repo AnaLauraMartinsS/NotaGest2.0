@@ -1,0 +1,49 @@
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.faq {
+    width: 50rem;
+    height: 30rem;
+}
+
+.FAQ-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-left: 20rem;
+}
+
+.faq-image {
+    border-radius: 50%;
+    max-width: 30%;
+    height: 30%;
+    margin-bottom: 2rem;
+}
+
+.question-faq {
+    position: relative;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.answer {
+    width: 40rem;
+    margin-top: 0.5rem;
+}
+
+.button-FAQ {
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.FAQ-title {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}

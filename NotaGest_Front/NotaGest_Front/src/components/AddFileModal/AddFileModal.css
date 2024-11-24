@@ -1,0 +1,133 @@
+.add-file-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1000;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.add-file-form {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-file-modal__file-upload-container {
+  border: 1px dashed #bcdafc;
+  background-color: #e9f2fc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.add-file-modal__file-upload-container:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.add-file-modal__file-upload-container input[type="file"] {
+  display: none; 
+}
+
+.add-file-modal__file-upload-container label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.add-file-modal__file-upload-container button {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  background-color: #0ea5e9;
+  color: #ffffff;
+}
+
+.add-file-modal__file-upload-container button:hover {
+  background-color: #0088c7;
+  transform: scale(1.05);
+}
+
+.add-file-modal__input-text,
+.add-file-modal__textarea {
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.add-file-modal__input-text:focus,
+.add-file-modal__textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.add-file-modal__textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.add-file-modal__form-button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.add-file-modal__button {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.add-file-modal__button[type="submit"] {
+  background-color: #e9f2fc;
+  border: 1px solid #a2ccfc;
+  color: #0c4a6e;
+}
+
+.add-file-modal__button[type="submit"]:hover {
+  background-color: #cde4fd;
+  transform: scale(1.05);
+}
+
+.add-file-modal__button[type="button"] {
+  background-color: #0ea5e9;
+  color: #ffffff;
+  border: 1px solid #007cb6;
+}
+
+.add-file-modal__button[type="button"]:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+.add-file-modal__file-upload-icon {
+  font-size: 48px;
+  margin-bottom: 1rem;
+}

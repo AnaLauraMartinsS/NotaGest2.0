@@ -1,0 +1,48 @@
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #0c4a6e;
+  width: 100%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.title-contact{
+  font-size: 2rem;
+  color: white;
+  margin: 2rem;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.contact-us label {
+  margin-bottom: 5px;
+}
+
+.contact-us input, .contact-us textarea {
+  margin-bottom: 20px;
+  width: 28rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.button-contact-us {
+  width: 20rem;
+  padding: 10px;
+  background-color: #059669;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-us button:hover {
+  background-color: #06a774;
+}

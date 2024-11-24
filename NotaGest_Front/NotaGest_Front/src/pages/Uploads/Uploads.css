@@ -1,0 +1,144 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  .files-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0C4A6E;
+    height: 5rem;
+  }
+  
+  .files-logo-image {
+    max-height: 50px;
+  }
+  
+  .files-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .files-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .files-logoff-button {
+    background-color: #0C4A6E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .files-logoff-button:hover {
+    background-color: #226084;
+  }
+  
+  /* Title */
+  .files-title {
+    color: #0C4A6E;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .files-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .files-add-button {
+    background-color: #0C4A6E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .files-add-button:hover {
+    background-color: #226084;
+    transform: translateY(-2px);
+  }
+  
+  /* Empty State */
+  .files-empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .files-empty-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 80%;
+    padding: 30px;
+  }
+  
+  .files-empty-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Table */
+  .files-table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .files-table {
+    text-align: center;
+    width: 70%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+  }
+  
+  .files-table th,
+  .files-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .files-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .files-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .files-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Delete Button */
+  .files-delete-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: black;
+  }
+  
+  .files-delete-button:hover {
+    color: red;
+  }
+  

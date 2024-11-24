@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0c4a6e; 
+    font-family: "Plus Jakarta Sans", sans-serif;
+    height: 4rem;
+  }
+ 
+  .logo-image{
+    max-width: 10%;
+    margin-left: 10%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 4rem;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .nav-list li {
+    position: relative;
+  }
+  
+  .login-button {
+    background-color: #fde047; 
+    color: #000000; 
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .register-button {
+    background-color: #25aff0; 
+    color: #000000; 
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .nav-list a:hover {
+    opacity: 0.8; 
+    cursor: pointer;
+  }
+  
