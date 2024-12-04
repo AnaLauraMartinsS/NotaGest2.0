@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 const AboutUs = () => {
 
     useEffect(() => {
-        AOS.init();
+        AOS.init({});
       }, []);
 
       
